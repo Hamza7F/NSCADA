@@ -1,0 +1,28 @@
+@page "/Error"
+@namespace scada_demo_test.Web.Pages
+@model ErrorModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error - SCADA Platform</title>
+    <base href="~/" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body style="display:flex;align-items:center;justify-content:center;min-height:100vh;background:var(--bg-app,#0f172a);color:var(--text-primary,#f8fafc);font-family:system-ui,-apple-system,sans-serif;">
+    <div class="glass-card" style="max-width:520px;margin:2rem;padding:2.5rem;text-align:center;border-radius:12px;background:rgba(30,41,59,0.85);border:1px solid rgba(148,163,184,0.15);">
+        <div style="font-size:3rem;margin-bottom:1rem;">⚠️</div>
+        <h2 style="font-size:1.4rem;font-weight:700;margin-bottom:0.75rem;">An Unexpected Error Occurred</h2>
+        <p style="color:var(--text-muted,#94a3b8);font-size:0.95rem;line-height:1.5;margin-bottom:1.5rem;">
+            An error occurred while processing your request. Please try refreshing or returning to the dashboard.
+        </p>
+        <div style="display:flex;gap:1rem;justify-content:center;">
+            <a href="/" class="btn-primary-scada" style="text-decoration:none;padding:0.6rem 1.4rem;display:inline-block;background:#0284c7;color:#fff;border-radius:6px;font-weight:600;">Return to Dashboard</a>
+        </div>
+    </div>
+</body>
+</html>

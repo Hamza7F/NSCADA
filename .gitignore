@@ -1,0 +1,38 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+.vs/
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+
+# Node
+node_modules/
+mobile/node_modules/
+
+# Runtime logs
+*.log
+api_out.log
+api_stdout.log
+api_stderr.log
+web_out.log
+
+# Local secrets / environment overrides
+appsettings.Development.local.json
+appsettings.*.local.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Archives
+*.rar
+*.zip
+*.tar.gz
+
+# Archived firmware
+src/FirmwareOta_Archived/
